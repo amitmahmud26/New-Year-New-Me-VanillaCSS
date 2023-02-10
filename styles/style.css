@@ -1,0 +1,196 @@
+* {
+  margin: 0px;
+  font-family: "Work Sans", sans-serif;
+}
+/* header section styles*/
+
+header {
+  margin: 0px;
+  width: 100%;
+  height: 808px;
+  background-image: url(../images/banner/banner1.png);
+  text-align: right;
+}
+.header-class {
+  margin: 0px 230px 360px 845px;
+  padding-top: 200px;
+}
+.header-title {
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  color: #151414;
+}
+.header-description {
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+}
+.primary-btn {
+  width: 150px;
+  height: 64px;
+  border: 0px;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  background: #f15b22;
+  border-radius: 5px;
+}
+
+/* previous failure section styles*/
+
+.previous-failure {
+  display: flex;
+  gap: 110px;
+  margin-left: 250px;
+  margin-right: 300px;
+}
+.previous-failure-picture {
+  margin-top: 130px;
+}
+.previous-failure-content {
+  margin-top: 370px;
+}
+.previous-failure-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+  margin-bottom: 25px;
+}
+.previous-failure-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 15px;
+}
+.previous-failure-sign {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #444343;
+}
+/* My plan section styles */
+.my-plan {
+  margin-top: 90px;
+  margin-bottom: 130px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+.my-plan-title {
+  margin-top: 100px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #151414;
+}
+.my-plan-subtitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 35px;
+  text-align: center;
+  color: #151414;
+}
+.my-plan-description {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  line-height: 29px;
+  color: #737272;
+}
+
+/* mindset section styles*/
+.mindset-content {
+  width: 950px;
+  height: 300px;
+  margin-left: 340px;
+  margin-right: 230px;
+  margin-bottom: 130px;
+  padding-left: 60px;
+  padding-top: 60px;
+  border-radius: 8px;
+  background-image: url(../images/watch.png), url(../images/gradient2.png);
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+}
+.mindset-content .mindset-title {
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+}
+.mindset-btn {
+  border: 0px;
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 5px;
+  width: 140px;
+  height: 55px;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #f15b22;
+}
+
+/* footer styles */
+
+.footer-class {
+  background-color: #151414;
+  width: 100%;
+  height: 450px;
+  color: #ffffff;
+  display: flex;
+  gap: 350px;
+}
+.future {
+  margin-top: 130px;
+  padding-left: 320px;
+}
+.future-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #f8f8f8;
+}
+.future-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.future a {
+  text-decoration: none;
+}
+.future a img {
+  margin-top: 20px;
+  padding-right: 5px;
+}
+.subscribe {
+  margin-top: 130px;
+  padding-right: 360px;
+}
+.subscribe-title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.subscribe input {
+  border: 2px solid white;
+  background-color: #151414;
+  width: 300px;
+  height: 50px;
+  color: white;
+  border-radius: 5px;
+  padding-left: 20px;
+}

@@ -36,8 +36,9 @@ header {
   color: white;
   font-weight: 600;
   font-size: 20px;
-  background: #f15b22;
+  background: #A9431B;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 /* previous failure section styles*/
@@ -90,6 +91,8 @@ header {
   line-height: 47px;
   text-align: center;
   color: #151414;
+  background-color: #CDD0D9;
+  padding: 20px;
 }
 .my-plan-subtitle {
   font-style: normal;
@@ -111,7 +114,7 @@ header {
 .mindset-content {
   width: 950px;
   height: 300px;
-  margin-left: 340px;
+  margin-left: auto;
   margin-right: 230px;
   margin-bottom: 130px;
   padding-left: 60px;
@@ -138,6 +141,7 @@ header {
   font-size: 20px;
   text-align: center;
   color: #f15b22;
+  cursor: pointer;
 }
 
 /* footer styles */
@@ -148,30 +152,30 @@ header {
   height: 450px;
   color: #ffffff;
   display: flex;
-  gap: 350px;
+  margin: 200px, 0px;
+  gap: 50px;
 }
 .future {
   margin-top: 130px;
-  padding-left: 320px;
+  margin-left: 320px;
 }
 .future-title {
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 45px;
   line-height: 53px;
   color: #f8f8f8;
 }
 .future-description {
-  font-weight: 400;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 26px;
   color: #ffffff;
 }
 .future a {
   text-decoration: none;
+  flex-direction: row;
 }
 .future a img {
-  margin-top: 20px;
   padding-right: 5px;
 }
 .subscribe {
@@ -179,10 +183,11 @@ header {
   padding-right: 360px;
 }
 .subscribe-title {
+  font-style: normal;
   font-weight: 600;
-  font-size: 28px;
-  line-height: 29px;
-  color: #ffffff;
+  font-size: 45px;
+  line-height: 53px;
+  color: #f8f8f8;
   margin-bottom: 10px;
 }
 .subscribe input {
